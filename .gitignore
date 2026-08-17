@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output and packaged desktop apps
+dist/
+release/
+*.exe
+*.lnk
+
+# Local API credentials and user-specific configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Locally generated notes, screenshots, and diagnostic output
+generated/
+*.log
+verify-report.json
+preview-*.png
+
+# Python runtime cache
+__pycache__/
+*.py[cod]
